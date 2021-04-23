@@ -32,7 +32,8 @@ main {
 }
 .header-2{
   background-color: #ffffff;
-width: 100%;
+width: 980px;
+margin: 0 auto;
 border-bottom: 3px solid #efefef ;
 }
 .menu ul li {
@@ -55,4 +56,9 @@ border-bottom: 3px solid #efefef ;
 .busca {
   width: 30%;
   float: right;
+}
+.cool-100{
+width: 100%;
+float: left;
+position: relative;
 }
