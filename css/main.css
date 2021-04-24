@@ -83,8 +83,46 @@ margin: 0 auto;
   margin-top: 15px;
   border: 1px solid #d6d6d6;
   }
-.cool-100{
+.cool-100 {
 width: 100%;
 float: left;
 position: relative;
+}
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
+  background-image: url('../img/anterior.png');
+  top: 35%;
+  left: 14%;
+}
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
+  background-image: url('../img/proximo.png');
+  top: 35%;
+  right: 150;
+ }
+
+ .slider-principal {
+   width: 100%;
+   float: left;
+   position: relative;
+ }
+
+.slick-list {
+  width: 100%!important;
+}
+
+.slick-initialized {
+overflow: hidden;
 }
